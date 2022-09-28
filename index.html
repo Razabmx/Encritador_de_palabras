@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Encriptador</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel="stylesheet" type='text/css' media='screen' href='estilos.css'>
+        <link rel="stylesheet" href="reset.css">
+    </head>
+    
+    <body>
+        <header>
+
+            <img src="imagenes/Logo.png" alt="Logo de Alura">
+
+        </header>
+
+        <main>
+            <section>
+                 <textarea class="input-texto"
+                 cols="40" rows="6"
+                 placeholder="Ingrese el texto aqui"></textarea>
+                
+                 <div class="botones">  
+
+                    <button class="encriptar" onclick="btnEncriptar()">Encriptar</button>
+                    <button class="desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+                 
+                 </div>   
+
+            </section>
+                
+            <section>
+                
+                <textarea class="mensaje" cols="20" rows="6"></textarea>
+                <button class="copiar" onclick="copiar()">Copiar</button>
+
+            </section>
+
+        </main>
+
+            <script src="script.js"></script> 
+
+     </body>
+     
+     <footer>
+                    
+        <p class="Copyright">&copy Creado Por Francisco Tapia Pereira</p>
+
+    </footer>
+         
+</html> 
