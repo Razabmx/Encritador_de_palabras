@@ -1,24 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
+   
+    width: 1024px;
+    margin-top: 10px;
     background-color: #e5e5e5;
+    
 }
 
 main{
-
-    display: flex;
+ 
+    display:inline-flex;
     margin: 80px;
-    margin-bottom: 50px;
+
 }
 
 .encriptar {
 
     background-color: darkblue;
     color: white;
+    box-sizing: border-box;
+    border: 2px solid green;
+    border-radius: 10px;
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    align-items: center;
+
 
 }
 
 .desencriptar {
 
     margin-left: 30px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 1px;
+    cursor: pointer;
+    align-items: center;
 }
 
 .informacion {
@@ -28,31 +56,62 @@ main{
 
 .copiar{
 
-    position: relative;
+    position:  relative;
     margin-top: 20px;
     margin-left: 205px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 1px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.button {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 24px;
+    border: none;
 }
 
 .botones{
 
-    display: flex;
-    flex-direction: row;
+    position: absolute;
+    z-index: 0;
+    padding: 0 24px 24px;
+    gap: 24px;
+    box-shadow: none;
     margin-top: 20px;
 }
 
 .input-texto{
-    
-    margin-left: 90px;
-
-}
+    background-color: #e5e5e5;
+    display: inline-block;
+    text-align: center;
+    box-sizing: none;
+    border: #e5e5e5;
+    }
 
 .mensaje{
-
-    position: relative;
-    margin-top: 20px;
+    display: center;
     margin-left: 90px;
     background-image: url("imagenes/Muñeco.png");
     background-repeat: no-repeat;
     background-position: 18px;
     background-size: 300px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.Copyright{
+
+    font-size: 24px;
+    text-align: center;
 }
